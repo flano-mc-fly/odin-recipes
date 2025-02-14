@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h1>Pizza</h1>
     <a href="../index.html">Back to recipes overview</a>
-    <p><img src="https://www.biomuehle-eiling.de/media/43/be/16/1692344121/selbstgebackene-pizza.webp" alt="delicious Pizza" width="900"></p>
+    <p><img class="pizzaImg" src="https://www.biomuehle-eiling.de/media/43/be/16/1692344121/selbstgebackene-pizza.webp" alt="delicious Pizza"></p>
     <h2>Description</h2>
     <!-- A paragraph with a description of the meal. -->
     <p> Pizza is a delicious dish that is loved by many people. 
@@ -25,37 +26,39 @@
     <h2>Ingredients</h2>
    <!-- 4 lists with all the ingredients needed to cook the meal. 4 lists, because 
     dough preparation takes several steps over a few days -->
-    <h3>Pre-Dough</h3>
-    <ul>
-        <li>1kg 00 flour</li>
-        <li>500ml water</li>
-        <li>5g dry yeast</li>
-    </ul>
-    <h3>Final Dough</h3>
-    <ul>
-        <li>Pre-Dough</li>
-        <li>200ml water</li>
-        <li>20g salt</li>
-        <li>1g dry yeast</li>
-    </ul>
-    <h3>Sauce</h3>
-    <ul>
-        <li>1 can of whole peeled tomatoes</li>
-        <li>salt</li>
-        <li>fresh basil</li>
-        <li>olive oil</li>
-    </ul>
-    <h3>Toppings</h3>
-    <ul>
-        <li>mozzarella cheese</li>
-        <li>parmesan cheese</li>
-        <li>fresh basil</li>
-        <li>olive oil</li>
-        <li>everything you like</li>
-    </ul>
+    <div class="ingredients">
+        <h3>Pre-Dough</h3>
+        <ul>
+            <li>1kg 00 flour</li>
+            <li>500ml water</li>
+            <li>5g dry yeast</li>
+        </ul>
+        <h3>Final Dough</h3>
+        <ul>
+            <li>Pre-Dough</li>
+            <li>200ml water</li>
+            <li>20g salt</li>
+            <li>1g dry yeast</li>
+        </ul>
+        <h3>Sauce</h3>
+        <ul>
+            <li>1 can of whole peeled tomatoes</li>
+            <li>salt</li>
+            <li>fresh basil</li>
+            <li>olive oil</li>
+        </ul>
+        <h3>Toppings</h3>
+        <ul>
+            <li>mozzarella cheese</li>
+            <li>parmesan cheese</li>
+            <li>fresh basil</li>
+            <li>olive oil</li>
+            <li>everything you like</li>
+        </ul>
+    </div>
     <h2>Steps</h2>
     <!-- An ordered list for a step by step instruction on how to cook the meal -->
-    <ol>
+    <ol class="steps">
         <li>Take a large container with a lid and put all the ingredients 
             for the pre-dough in it.</li>
         <li>Seal the container with the lid and shake it. The flour and water 

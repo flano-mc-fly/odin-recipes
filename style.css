@@ -1,0 +1,68 @@
+h1 {
+    color: red;
+    background-color: wheat;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    color: red;
+    background-color: wheat;
+    font-size: 50px;
+}
+
+h3 {
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recipes {
+    font-size: 50px;
+    color: hwb(246 15% 29%);
+}
+
+#pizza {
+    background-color: red;
+}
+
+#lasagna {
+    background-color: white;
+    text-align: center;
+}
+
+#pancakes {
+    background-color: green;
+    text-align: right;
+}
+
+.pizzaImg {
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    width: 900px;  
+    height: auto;
+}
+
+.lasagnaImg {
+    border-radius: 25%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    width: 700px;  
+    height: auto;
+}
+
+.pancakesImg {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px grey;
+    width: 500px;  
+    height: auto;
+}
+
+.ingredients, 
+.steps {
+    border: 10px solid green;
+    border-radius: 25px;
+    background-color: hwb(246 15% 29% / 0.212);
+}
